@@ -14,6 +14,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
 
 set(ament_dependencies
   rclcpp
@@ -21,14 +22,16 @@ set(ament_dependencies
   geometry_msgs
 )
 
-# add_executable(simple_sub_node src/print_pose.cpp)
-# ament_target_dependencies(simple_sub_node ${ament_dependencies} )
+
+add_executable(draw src/draw.cpp)
+ament_target_dependencies(draw rclcpp geometry_msgs turtlesim)
+
+install(TARGETS
+  draw  
+  DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME})
 
-install(TARGETS
-# simple_sub_node
-DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
