@@ -1,0 +1,8 @@
+source;share/tat_e0u_benya/hook/cmake_prefix_path.ps1
+source;share/tat_e0u_benya/hook/cmake_prefix_path.dsv
+source;share/tat_e0u_benya/hook/cmake_prefix_path.sh
+source;share/tat_e0u_benya/local_setup.bash
+source;share/tat_e0u_benya/local_setup.dsv
+source;share/tat_e0u_benya/local_setup.ps1
+source;share/tat_e0u_benya/local_setup.sh
+source;share/tat_e0u_benya/local_setup.zsh
