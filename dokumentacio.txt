@@ -1,1 +1,2 @@
+A package egy  draw node-ból áll. A turtleslim simulator segítségével képes egy 3d kocka 2d-s vetületét kirajozlni. A a mozgást "/turtle1/cmd_vel", a toll vezérlését "/turtle1/set_pen", teleportálását "/turtle1/teleport_absolute"- szolgáltatás segítségével valósítja meg ROS 2 Humble alatt.
 
