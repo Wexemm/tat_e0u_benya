@@ -1,7 +1,6 @@
 # `tat_e0u_benya` package
 ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
-A package egy draw node-ból áll. A turtleslim simulator segítségével képes egy 3d kocka 2d-s vetületét kirajozlni. A a mozgást "/turtle1/cmd_vel", a toll vezérlését "/turtle1/set_pen", teleportálását "/turtle1/teleport_absolute"- szolgáltatás segítségével valósítja meg ROS 2 Humble alatt.
-
+A package egy draw node-ból áll. A turtleslim simulator segítségével képes egy 3d kocka 2d-s vetületét kirajozlni. A a mozgást "/turtle1/cmd_vel", a toll vezérlését "/turtle1/set_pen", teleportálását "/turtle1/teleport_absolute"- szolgáltatás segítségével valósítja meg ROS 2 Humble alatt. 
 
 
 ## Packages and build
