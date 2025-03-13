@@ -3,6 +3,10 @@ ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-3
 
 A package egy draw node-ból áll. A turtleslim simulator segítségével képes egy 3d kocka 2d-s vetületét kirajozlni. A a mozgást "/turtle1/cmd_vel", a toll vezérlését "/turtle1/set_pen", teleportálását "/turtle1/teleport_absolute"- szolgáltatás segítségével valósítja meg ROS 2 Humble alatt. 
 
+# Képernyőkép a kirajzolt objektumról
+
+
+<p align="center"><img src="img/kocka.png" width="60%" /></p>
 
 ## Packages and build
 
@@ -36,10 +40,7 @@ source ~/ros2_ws/install/setup.bash
 ros2 launch tat_e0u_benya launch_example1.launch.py
 ```
 
-# Képernyőkép a kirajzolt objektumról
 
-
-<p align="center"><img src="img/kocka.png" width="60%" /></p>
 
 
 Let's assume 
