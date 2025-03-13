@@ -40,7 +40,7 @@ ros2 launch tat_e0u_benya launch_example1.launch.py
 
 ROS 2 pacage template, to get started, use template by clicking on the Green button labeled [`Use this template`](https://github.com/Wexemm/tat_e0u_benya/generate) / [`Create new repository`](https://github.com/Wexemm/tat_e0u_benya/generate). 
 
-<p align="center"><img src="img/use_this_template01.png" width="60%" /></p>
+<p align="center"><img src="img/kocka.png" width="60%" /></p>
 
 
 Let's assume 
