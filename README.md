@@ -45,15 +45,3 @@ ros2 launch tat_e0u_benya launch_example1.launch.py
 Let's assume 
 - your Github username is `Wexemm`
 - your ROS 2 repo shold be `tat_e0u_benya`
-
-Replace everything in the cloned repo:
-
-- `tat_e0u_benya` >> `cool_ros2_package` (the folder was already renamed after `Use this template`)
-- `Wexemm` >> `mycoolusername`
-- find all `todo` strings and fill the blanks
-
-The easiest way is VS code:
-
-<p align="center"><img src="img/replace01.png" width="60%" /></p>
-
-Now `colcon build` your ROS 2 package and you can start wokring.
