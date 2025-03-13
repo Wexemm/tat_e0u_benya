@@ -36,16 +36,15 @@ source ~/ros2_ws/install/setup.bash
 ros2 launch tat_e0u_benya launch_example1.launch.py
 ```
 
-# Delete this part if you are using it as a template
+# Képernyőkép a kirajzolt objektumról
 
-ROS 2 pacage template, to get started, use template by clicking on the Green button labeled [`Use this template`](https://github.com/Wexemm/tat_e0u_benya/generate) / [`Create new repository`](https://github.com/Wexemm/tat_e0u_benya/generate). 
 
 <p align="center"><img src="img/kocka.png" width="60%" /></p>
 
 
 Let's assume 
-- your Github username is `mycoolusername`
-- your ROS 2 repo shold be `cool_ros2_package`
+- your Github username is `Wexemm`
+- your ROS 2 repo shold be `tat_e0u_benya`
 
 Replace everything in the cloned repo:
 
