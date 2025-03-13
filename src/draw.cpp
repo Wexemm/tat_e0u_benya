@@ -8,7 +8,7 @@ using namespace std::chrono_literals;
 
 class CubeDrawer : public rclcpp::Node {
 public:
-    CubeDrawer() : Node("cube") {
+    CubeDrawer() : Node("draw") {
         speed_publisher = create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
         teleport_service = create_client<turtlesim::srv::TeleportAbsolute>("/turtle1/teleport_absolute");
         pen_service = create_client<turtlesim::srv::SetPen>("/turtle1/set_pen");
